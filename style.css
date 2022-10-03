@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    width: 70px;
+}
+.home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(5081.jpg);
+    /* background-color: #555; */
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    height: 10vh;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu h3{
+    text-transform: uppercase;
+    margin-right: 15px;
+    color: #fff;
+    font-family: sans-serif;
+}
+.menu i{
+    font-size: 21px;
+    cursor: pointer;
+    color: #fff;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+ flex-direction: column;
+}
+.main h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+}
+.main p{
+    font-family: 'Cookie',cursive ;
+    font-size: 30px;
+    color: bisque;
+    padding-bottom: 40px;
+    margin-top: 10px;
+}
+.main button{
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 800;
+    
+}
+.home hr{
+   width: 90%; 
+   margin: 0 auto;
+}
+.about{
+    margin-top: 150px;
+    text-align: center;
+}
+.about h1{
+    font-size: 65px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 100px;
+}
+.about hr{
+    
+    width: 100px;
+    height: 7px;
+    margin: 0 auto;
+    background-color:green;
+    border: 1px solid green;
+    margin-bottom: 100px;
+}
+.about p{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 22px;
+    margin-bottom: 70px;
+    line-height: 30px;
+}
+.about img{ 
+    width: 400px;
+    margin-bottom: 80px;
+}
+.about p:nth-child(5){
+   font-size: 30px; 
+   font-family: sans-serif;
+   font-weight: 700;
+}
